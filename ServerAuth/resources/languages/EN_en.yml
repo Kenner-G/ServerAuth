@@ -1,22 +1,22 @@
 #ServerAuth plugin English language file
 #Translation by Flavius12, EvolSoft
 ---
-join-message: "&bAuthentication system provided by &aServerAuth &bplugin"
-single-auth: "&cA player with this nickname is already authenticated!"
+join-message: "&7- &cWelcome to &6Xeon&7! \n&7- &8&lSHOP&l&2: &bhttp://&ashop&7.&6xeonpe&7.&ecom"
+single-auth: "&7- &c&lA player with this username is currently playing&e!"
 mysql-success: "&aServerAuth successfully connected to the MySQL database!"
 mysql-restored: "&aMySQL connection restored!"
 mysql-fail: "&cServerAuth can't connect to the MySQL database. Data will be saved locally. Error: {MYSQL_ERROR}" 
 config-reloaded: "&aConfiguration reloaded!"
 operation-cancelled: "&cOperation cancelled"
 login:
-  message: "&cPlease login with /login <password>"
-  disabled: "&cLogin disabled in this server"
-  command: "&cUsage: /login <password>"
-  ip-login: "&9You are logged in by IP"
-  login-success: "&aYou have been logged in!"
-  login-timeout: "&cLogin Timeout"
-  already-login: "&aYou are already logged in"
-  too-many-attempts: "&cToo many login attempts!"
+  message: "&7- &6This account is registered&7. \n&7- &cPlease login by typing your password in the chat&8."
+  disabled: "&7- &cERROR&7: &8LOGIN DISABLED"
+  command: "&7- &cUSAGE&7: &a/login &9PASSWORD"
+  ip-login: "&7- &aYou have been logged automatically&7. \n&7- &6Learn more at&9: &bhttp://&6xeonpe&7.&dcom&7/&aauto&7-&alogin"
+  login-success: "&7- &aYou have been logged in&7. \n&7- &6Have fun&7!"
+  login-timeout: "&l&7- &cLOGIN TIME - Ask a staff member for information regarding this."
+  already-login: "&7- &cSorry&7, &cyou're already logged in&7."
+  too-many-attempts: "&7- &cToo many attempts&7, &ctry again &l&olater&7."
 register: 
   message: "&cPlease register with /register <password>"
   message-conf: "&cPlease register with /register <password> <confirmPassword>"
